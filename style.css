@@ -1,0 +1,66 @@
+body {
+	display: flex;
+	width: 100vw;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom, #ffcccc, #ff9999);
+	padding: 40px;
+	border-radius: 10px;
+}
+h1 {
+	text-shadow: 0cap;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 700;
+	text-align: center;
+}
+h1:hover {
+	background-color: aqua;
+}
+p {
+	color: brown;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 300;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(218, 227, 176);
+	align-items: center;
+	border-radius: 10%;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	gap: 10px;
+}
+label {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	border-radius: 6px;
+	height: 20px;
+}
+
+button {
+	width: 90px;
+	height: 20px;
+	border-radius: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 800;
+	color: BLACK;
+}
+.table_data {
+	width: 40%;
+	height: auto;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

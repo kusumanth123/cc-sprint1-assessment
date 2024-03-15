@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>REGISTER FOR EVENT</title>
+		<link
+			rel="stylesheet"
+			href="./style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="container">HOLI FEST EVENTS</h1>
+			<p class="para">AN HOLI IS A ENJOYABLE FEST WITH BEAUTIFUL COLOURS</p>
+			<div class="box">
+				<form id="myform">
+					<label for="username">USERNAME:</label>
+					<input
+						type="text"
+						name="username"
+						id="username" />
+
+					<label for="email">EMAIL:</label>
+					<input
+						type="text"
+						name="email"
+						id="email" />
+
+					<label for="password">PASSWORD:</label>
+					<input
+						type="password"
+						name="password"
+						id="password" />
+
+					<label for="event-name">EVENT DESCRIPITION:</label>
+					<textarea
+						name="event"
+						id="eventDescription"></textarea>
+					<button
+						type="button"
+						onclick="register(event)">
+						register
+					</button>
+				</form>
+			</div>
+		</div>
+
+		<p>Already you have an register? <a href="#">Login here</a>.</p>
+		<div class="table_data">
+			<table id="table_data">
+				<thead>
+					<tr>
+						<th>USERNAME</th>
+						<th>EMAIL</th>
+						<th>PASSWORD</th>
+						<th>EVENT DESCRIPITION</th>
+					</tr>
+				</thead>
+				<tbody id="table_data"></tbody>
+			</table>
+			<button
+				type="text"
+				onclick="allclear()">
+				AllClearData
+			</button>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>
